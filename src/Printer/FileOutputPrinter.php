@@ -32,7 +32,7 @@ class FileOutputPrinter implements PrinterInterface
      */
     public function __construct($filename, $outputDir)
     {
-        $this->filename = $filename;
+        $this->filename = sprintf("%s_%s", time(), $filename);
         $this->setOutputPath($outputDir);
     }
 
