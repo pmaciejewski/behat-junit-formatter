@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "jarnaiz\\JUnitFormatter\\": "src/"
+            "pmaciejewski\\JUnitFormatter\\": "src/"
         }
     },
     "extra": {
